@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-#Chucky_Bot
+#Vipro Bot
 
 import LINETCR
 from LINETCR.lib.curve.ttypes import *
@@ -147,7 +147,7 @@ groupMessage ="""
 ║    〽️ line.me/ti/p/~gjxvipro 〽️
 ╚═════════════════════════
 """
-tjia="uda936836a9869eb86ec8ab992a4e8979"
+vip="uda936836a9869eb86ec8ab992a4e8979"
 
 setMessage ="""
 ╔═════════════════════════
