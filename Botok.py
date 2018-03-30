@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-#Vipro Bot
+# -*-Botok.py: -*-
 
 import LINETCR
 from LINETCR.lib.curve.ttypes import *
@@ -10,10 +10,10 @@ from googletrans import Translator
 from gtts import gTTS
 import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,os,subprocess,requests,tempfile
 
-vipro = LINETCR.LINE()
+Botok = LINETCR.LINE()
 #vipro.login(qr=True)
-vipro.login(token='EpJgyNvzK8xQp88I04t9.2PnOnQMgNRHUYkUzkK6jEq./p92mOc1BPmafZPSgTcw4mkpBeT/czsWHBLRbK7Aewc=')
-vipro.loginResult()
+Botok.login(token='Erbks32TQN28FdtifXid.ok/qVqD+iwHxhL7qmjg+pq./j6ltzxB+3Fo5c+hgPn1zr6fKnMCc3xDjVSR1592zfQ=')
+Botok.loginResult()
 print "Vipro-Login Success\n\n=====[Sukses Login]====="
 
 reload(sys)
@@ -147,7 +147,7 @@ groupMessage ="""
 ║    〽️ line.me/ti/p/~gjxvipro 〽️
 ╚═════════════════════════
 """
-vip="uda936836a9869eb86ec8ab992a4e8979"
+vip="u38af90bd077f2168571e5ed03091bf3d"
 
 setMessage ="""
 ╔═════════════════════════
@@ -249,19 +249,19 @@ helpMessage ="""
 """
 
 
-KAC=[vipro]
-mid = vipro.getProfile().mid
+KAC=[botok]
+mid = botok.getProfile().mid
 Bots=[mid]
-Creator=["uda936836a9869eb86ec8ab992a4e8979"]
-admin=["uda936836a9869eb86ec8ab992a4e8979"]
+Creator=["u38af90bd077f2168571e5ed03091bf3d"]
+admin=["u38af90bd077f2168571e5ed03091bf3d"]
 
-contact = vipro.getProfile()
-backup1 = vipro.getProfile()
+contact = botok.getProfile()
+backup1 = botok.getProfile()
 backup1.displayName = contact.displayName
 backup1.statusMessage = contact.statusMessage                        
 backup1.pictureStatus = contact.pictureStatus
 
-responsename = vipro.getProfile().displayName
+responsename = botok.getProfile().displayName
 
 
 wait = {
@@ -915,17 +915,19 @@ def bot(op):
                     mentionees = mention['MENTIONEES']
                     for mention in mentionees:
                            if mention['M'] in Bots:
-                                  vipro.sendText(msg.to,ret_)
-                                  vipro.sendText(msg.to,balas1)
-                                  vipro.sendImageWithURL(msg.to,image)
+                                  botok.sendText(msg.to,ret_)
+                                  botok.sendText(msg.to,balas1)
+                                  botok.sendImageWithURL(msg.to,image)
                                   msg.contentType = 7   
                                   msg.text = None
                                   msg.contentMetadata = {
                                                        "STKID": "11764508",
                                                        "STKPKGID": "6641",
                                                        "STKVER": "1" }
-                                  vipro.sendMessage(msg)                                
-                                  break  
+                                  botok.sendMessage(msg)
+			
+				                            
+                                
                                   
         if op.type == 25:
             msg = op.message                                  
