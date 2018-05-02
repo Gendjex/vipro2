@@ -49,8 +49,8 @@ selfMessage ="""
 ╠➩〘Micdel @〙
 ╠➩〘Miclist〙
 ╠═════════════════════════
-║             💠 By : Vipro 💠
-║    〽️ line.me/ti/p/~gjxvipro 〽️
+║             💠HAKAN💠
+║    〽️ line.me/ti/p/~hakann40 〽️
 ╚═════════════════════════
 """
 
@@ -69,8 +69,8 @@ botMessage ="""
 ╠➩〘@bye〙
 ╠➩〘Bot on/off〙
 ╠═════════════════════════
-║             💠 By : Vipro 💠
-║    〽️ line.me/ti/p/~gjxvipro 〽️
+║            💠HAKAN💠
+║    〽️ line.me/ti/p/~hakann40 〽️
 ╚═════════════════════════
 """
 
@@ -108,8 +108,8 @@ mediaMessage ="""
 ╠➩〘Id@th Text (Translate ID Ke TH〙
 ╠➩〘En@id Text (Translate En Ke ID〙
 ╠═════════════════════════
-║             💠 By : Vipro 💠
-║    〽️ line.me/ti/p/~gjxvipro 〽️
+║             💠HAKAN💠
+║    〽️ line.me/ti/p/~hakann40 〽️
 ╚═════════════════════════
 """
 
@@ -143,8 +143,8 @@ groupMessage ="""
 ╠➩〘Getgroup image〙
 ╠➩〘Urlgroup Image〙
 ╠═════════════════════════
-║             💠 By : Vipro 💠
-║    〽️ line.me/ti/p/~gjxvipro 〽️
+║             💠HAKAN💠
+║    〽️ line.me/ti/p/~hakann40 〽️
 ╚═════════════════════════
 """
 vip="uda936836a9869eb86ec8ab992a4e8979"
@@ -162,8 +162,8 @@ setMessage ="""
 ╠➩〘Sticker on〙
 ╠➩〘Simisimi on/off〙
 ╠═════════════════════════
-║             💠 By : Vipro 💠
-║    〽️ line.me/ti/p/~gjxvipro 〽️
+║            💠HAKAN💠
+║    〽️ line.me/ti/p/~hakann40 〽️
 ╚═════════════════════════
 """
 
@@ -222,8 +222,8 @@ adminMessage ="""
 ╠➩〘Respon3 on/off〙
 ╠➩〘Responkick on/off〙
 ╠═════════════════════════
-║             💠 By : Vipro 💠
-║    〽️ line.me/ti/p/~gjxvipro 〽️
+║             💠HAKAN💠
+║    〽️ line.me/ti/p/~hakann40 〽️
 ╚═════════════════════════
 """
 
@@ -243,8 +243,8 @@ helpMessage ="""
 ╠➩〘Speed test〙
 ╠➩〘Status〙
 ╠═════════════════════════
-║             💠 By : Vipro 💠
-║    〽️ line.me/ti/p/~gjxvipro 〽️
+║                💠HAKAN💠
+║    〽️ line.me/ti/p/~hakann40 〽️
 ╚═════════════════════════
 """
 
@@ -286,7 +286,7 @@ wait = {
     'sticker':False,  
     'timeline':True,
     "Timeline":True,
-    "comment":"Bot Auto Like ©By : Vipro\nContact Me : 👉 line.me/ti/p/~gjxvipro",    
+    "comment":"Bot Auto Like ©By : hakan\nContact Me : 👉 line.me/ti/p/~hakann40",    
     "commentOn":True,
     "commentBlack":{},
     "message":"Thx For Add Me (^_^)\nInvite Me To Your Group ヘ(^_^)ヘ",    
@@ -871,7 +871,7 @@ def bot(op):
                  if wait["detectMention"] == True:
                      contact = vipro.getContact(msg.from_)
                      cName = contact.displayName
-                     balas = ["Dont Tag!! Lagi Sibuk",cName + " Ngapain Ngetag?",cName + " Nggak Usah Tag-Tag! Kalo Penting Langsung Pc Aja","Dia Lagi Off", cName + " Kenapa Tag Saya?","Dia Lagi Tidur\nJangan Di Tag " + cName, "Jangan Suka Tag Gua " + cName, "Kamu Siapa " + cName + "?", "Ada Perlu Apa " + cName + "?","Woii " + cName + " Jangan Ngetag, Riibut!"]
+                     balas = ["Dont Tag!! Lagi Sibuk",cName + "ŞUAN AKTİF DEYİLİM GÖRDÜĞÜMDE YAZCAM",cName + " ŞUAN AKTİF DEYİLİM GÖRDÜĞÜMDE YAZCAM","o kapalı", cName + "ŞUAN AKTİF DEYİLİM GÖRDÜĞÜMDE YAZCAM" + cName, "ŞUAN AKTİF DEYİLİM GÖRDÜĞÜMDE YAZCAM" + cName, "ŞUAN AKTİF DEYİLİM GÖRDÜĞÜMDE YAZCAM" + cName + "?", "Yapacak bir şey yok " + cName + "?","Woii " + cName + " Bilmiyorum"]
                      ret_ = random.choice(balas)
                      name = re.findall(r'@(\w+)', msg.text)
                      mention = ast.literal_eval(msg.contentMetadata['MENTION'])
